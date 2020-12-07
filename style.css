@@ -49,6 +49,7 @@ body{
 	background: url(img/back.png) repeat top;
 	background-size: auto 350px;
 	padding-bottom: 50px;
+	min-width: 900px;
 }
 
 .col-first>h1{
@@ -82,6 +83,7 @@ body{
 
 .second{
 	margin: 50px 100px 0 100px;
+	min-width: 900px;
 }
 
 .second-h4{
@@ -97,6 +99,10 @@ body{
 	padding: 0 0 0 0;
 	margin-bottom: 50px;
 	color: #000;
+}
+
+.third{
+	min-width: 900px;
 }
 
 .third-h1{
