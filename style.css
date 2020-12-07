@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;600;700;800&display=swap');
+
+.content {
+  	width: 300;
+  	background-color: green;
+}
+
+.header{
+	display: flex; 
+	justify-content: space-between;
+	align-items: center;
+	background-color: #ebe9e4;
+	width: 100%;
+	height: 100px;
+	margin-left: 0px;
+  	margin-right: 0px;
+}
+
+.logo{
+	margin: 10px 0 10px 25px;
+}
+
+.call{
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+.call>a{
+	font-size: 20px;
+	font-family: Alegreya;
+	font-weight: 600;
+	margin-right: 10px;
+}
+
+body{
+	min-width: 900px;
+	font-family: Alegreya;
+	font-weight: 700;
+}
+
+.meny>a{
+	margin: 0 7px 0 7px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #DF0D0D;
+}
+
+.first{
+	background: url(img/back.png) repeat top;
+	background-size: auto 350px;
+	padding-bottom: 50px;
+}
+
+.col-first>h1{
+	color: #DF0D0D;
+	font-weight: 800;
+	font-size: 40px;
+	line-height: 1.5;
+}
+
+.col-first>h3{
+	color: black;
+	font-weight: 700;
+	margin-top: 25px;
+}
+
+.checks{
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.btn-1{
+	border-radius: 0;
+	background-color: #DF0D0D;
+	color: black;
+	font-family: Alegreya;
+	font-weight: 700;
+	font-size: 20px;
+	padding: 15px 10px 15px 15px;
+	margin-top: 30px;
+}
+
+.second{
+	margin: 50px 100px 0 100px;
+}
+
+.second-h4{
+	color: #DF0D0D;
+	font-weight: 800;
+	font-size: 30px;
+}
+
+.second-p{
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.8;
+	padding: 0 0 0 0;
+	margin-bottom: 50px;
+	color: #000;
+}
+
+.third-h1{
+	color: #DF0D0D;
+	font-weight: 800;
+	font-size: 55px;
+}
+
+.third-li{
+	font-weight: 800;
+	font-size: 30px;
+	color: #000;
+}
+
+.steps{
+	min-width: 450px;
+}
+
+.packs-red{
+	background-color: #DF0D0D;
+}
+
+.smm, .mass, .full{
+	padding-top: 50px;
+	margin: 50px 50px 0 50px;
+	align-self: center;
+	color: #000;
+}
+
+.smm>h1, .mass>h1, .full>h1{
+	margin: 0 0 100px 0;
+	font-weight: 900;
+	font-size: 50px;
+	color: #fff;
+}
+
+.card{
+	width: 430px;
+	border-radius: 15px;
+	font-weight: 800;
+	position: relative;
+	padding-bottom: 50px;
+}
+
+.card>img{
+	align-self: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.card-body>h3{
+	font-size: 20px;
+	font-weight: 900;
+	text-align: center;
+}
+
+.card-body>ul{
+	margin-top: 20px;
+}
+
+.btn-dark{
+	background-color: #E53939;
+	border-radius: 0px;
+	position:absolute;
+	bottom:0;
+	margin-bottom: 25px;
+	left: 50%;
+	margin-left: -75px;
+	width: 150px;
+	font-weight: 800;
+}
+
+.mass, .full{
+	margin-top: 100px;
+}
