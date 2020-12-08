@@ -99,8 +99,6 @@ body{
 	color: #000;
 }
 
-.third{
-}
 
 .third-h1{
 	color: #DF0D0D;
@@ -115,11 +113,12 @@ body{
 }
 
 .steps{
-	min-width: 450px;
+	min-width: 20vw;
 }
 
 .packs-red{
 	background-color: #DF0D0D;
+	padding-bottom: 150px;
 }
 
 .smm, .mass, .full{
@@ -174,4 +173,65 @@ body{
 
 .mass, .full{
 	margin-top: 100px;
+}
+
+.clients{
+	color: #DF0D0D;
+	padding-top: 75px;
+}
+
+.clients>h1{
+	font-size: 50px;
+	font-weight: 900;
+	margin-left: 75px;
+}
+
+.clients>h3{
+	font-size: 45px;
+	font-weight: 900;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.red-inner{
+	background-color: #DF0D0D;
+	height: 500px;
+}
+
+.carousel-item>h1{
+	padding: 10px 60px 0px 170px;
+}
+
+.carousel-item>h2{
+	padding: 0px 60px 10px 170px;
+}
+
+.carousel-item>h3{
+	font-size: 45px;
+	font-weight: 900;
+	text-align: center;
+	margin-top: 50px;
+	color: #DF0D0D;
+}
+
+.carousel-item>h1,h2{
+	color: #000;
+	font-weight: 900;
+}
+
+.tsr{
+	padding: 50px 150px 0 150px;
+	color: #fff;
+}
+
+.tasks>h3, .solution>h3, .result>h3{
+	text-align: center;
+	font-weight: 900;
+	margin-bottom: 30px;
+	font-size: 35px;
+}
+
+.tasks>ul, .solution>ul, .result>ul{
+	font-weight: 400;
+	font-size: 20px;
 }
