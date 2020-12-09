@@ -33,7 +33,7 @@
 }
 
 body{
-	min-width: 900px;
+	min-width: 1400px;
 	font-family: Alegreya;
 	font-weight: 700;
 }
@@ -234,4 +234,31 @@ body{
 .tasks>ul, .solution>ul, .result>ul{
 	font-weight: 400;
 	font-size: 20px;
+}
+
+.special{
+	margin-top: 100px;
+
+}
+
+.special>h1{
+	color: #DF0D0D;
+	font-weight: 900;
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.pics{
+	columns: 2;
+}
+
+.banner{
+	display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.arrow_r{
+	margin-right: 100px;
 }
